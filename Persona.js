@@ -33,36 +33,36 @@ angular.module("angular", [])
                 
                 
 				Id: 0,
-				Name: "Pedro",
+				Name: "Juan",
 				Photo: "man.png",
-				Quote: "Carpe Diem",
-				Age: 32,
-				Occupation: "Comercial en empresa de automocion",
-				Family: "Con pareja desde hace 1 año",
-				Location: "Granada (Huetor Vega)",
+				Quote: "El esfuerzo siempre tiene su recompensa",
+				Age: 62,
+				Occupation: "Agricultor",
+				Family: "Viudo, 2 hijos",
+				Location: "Cáceres (Guadalupe)",
 				Character: "Le gusta disfrutar del tiempo",
 				PersonalityTraits: [
-					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 4 },
+					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 2 },
 					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 1 },
-					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 3 },
-					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 5 }
+					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 4 },
+					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 4 }
 				], 
-				Goals: ["Disfrutar del tiempo libre, viajar", "Cambiar a un trabajo más estable"],
-				Frustrations: ["le gusta la tecnología, pero siempre 'llama a un amigo' para resolver problemas", "Le gustaría tener más tiempo libre y leer más"],
-				Bio: "Es de Modril y vino a Granada para estudiar administración de empresas, pero no ha tenido grandes oportunidades de trabajo. LLeva 2 años contratado en la empresa actual. Aqui ha hecho buenos amigo en el trabajo y normalmente ser reunen para fiestas y a veces organizan viajes",
+				Goals: ["Visitar más a sus hijos y sus familias, prejubilarse", "Aprender a pintar"],
+				Frustrations: ["Nunca ha entendido las nuevas tecnologías", "Le gustaría visitar más a menudo a sus hijos"],
+				Bio: "Es de Guadalupe en Cáceres, no terminó los estudios y se dedicó a la agricultura como su padre. Conoció a su difunta esposa en un baile de las fiestas de su pueblo, se casaron 2 años después y ambos trabajaron juntos en el campo. Tuvieron dos hijos. Su mujer falleció de cáncer cuando él tenía 60 años.",
 				Tech: [
 					{ Name: "TIC/Internet", Value: 2 },
 					{ Name: "Movil", Value: 2 },
 					{ Name: "RRSS", Value: 3 },
-					{ Name: "Software", Value: 2 }
+					{ Name: "Software", Value: 1 }
 					
 				], 
-                Contextos: "LLeva un tiempo preocupado y quiere desconectar Le gustaría dar una sorpresa a sus amigos para las vacaciones",  
+                Contextos: "LLeva mucho tiempo sin visitar a sus hijos que viven en Granada y ha decidido darles una sopresa haciéndoles una visita y así aprovechar para hacer turismo por Granada",  
 				PreferredChannels: [
 					{ Name: "Publicidad Tradicional", Value: 5 },
-					{ Name: "Online & Social Media", Value: 3 },
+					{ Name: "Online & Social Media", Value: 2 },
 					{ Name: "Recomendaciones & sugerencias", Value: 2 },
-					{ Name: "Persona confianza (amigos, boca a boca)", Value: 1 }
+					{ Name: "Persona confianza (amigos, boca a boca)", Value: 4 }
 				]
 			},
 			{	
@@ -74,36 +74,36 @@ angular.module("angular", [])
                 
                 
 				Id: 1,
-				Name: "Monica Suarez",
+				Name: "Carmen Rodríguez",
 				Photo: "woman.png",
-				Quote: "A quotation that captures the essence of this person's personality",
-				Age: 17,
-				Occupation: "Searching for a cure for the Empress",
-				Family: "No parents, only family are the people who raised him.",
-				Location: "The Grassy Plains of Fantasia",
-				Character: "Strong, reliable and fearless.",
+				Quote: "Carpe Diem",
+				Age: 25,
+				Occupation: "Enfermera",
+				Family: "Novio desde hace 2 años",
+				Location: "Fuengirola, Málaga",
+				Character: "Alegre, atrevida and trabajadora.",
 				PersonalityTraits: [
-					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 3 },
+					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 5 },
 					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 3 },
 					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 2 },
-					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 2 }
+					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 4 }
 				], 
-				Goals: ["The goals this user hopes to achieve.", "A task that needs to be completed.", "A life goal to be reached.", "An experience to be felt."],
-				Frustrations: ["The frustrations this user would like to avoid.", "The obstacle that prevents the user from achieving their goals.", "The problems with the solutions already available.", "The product or service which does not currently exist."],
-				Bio: "The bio should be a short paragraph to describe the user journey. It should include some of their history leading up to a current use case. It may be helpful to incorporate information listed across the template and add pertinent details that may have been left out. Highlight factors of the user's personal and professional life that make this user an ideal customer of your product.",
+				Goals: ["Tener un trabajo fijo", "Formar una familia", "Aprender inglés.", "Viajar a China."],
+				Frustrations: ["No haber alcanzado la nota para estudiar medicina", "No tener dinero suficiente para comprar su propio piso.", "Pasa poco tiempo con sus padres, que viven en otra ciudad."],
+				Bio: "Nació en Fuengirola, Málaga. Desde los 12 años ya sabía que quería estudiar medicina aunque sus padres querían que fuese abogada para trabajar en el bufete de su padre. Como en Málaga no hay facultad de enfermería vino a Granada a estudiar. Conoció a su novio en la carrera y cuando terminó volvió a vivir a Málaga donde trabaja de enfermera a tiempo parcial.",
 				Tech: [
 					{ Name: "TIC/Internet", Value: 5 },
 					{ Name: "Mobile", Value: 3 },
-					{ Name: "RRSS", Value: 3 },
-					{ Name: "Software", Value: 5 }
+					{ Name: "RRSS", Value: 4 },
+					{ Name: "Software", Value: 4 }
 					
 				], 
-                Contextos:   "The goals this user hopes to achieve." ,
+                Contextos:   "Le han dado unos días libres en el trabajo y quiere visitar de nuevo Granada y dar un paseo turístico junto con sus viejas amigas de la facultad." ,
 				PreferredChannels: [
 					{ Name: "Publicidad Tradicional (Ads)", Value: 5 },
-					{ Name: "Online & Social Media", Value: 2 },
+					{ Name: "Online & Social Media", Value: 4 },
 					{ Name: "Recomendaciones & sugerencias", Value: 2 },
-					{ Name: "Persona confianza (amigos, boca a boca)", Value: 2 }
+					{ Name: "Persona confianza (amigos, boca a boca)", Value: 3 }
 				]
 			}
 		];
